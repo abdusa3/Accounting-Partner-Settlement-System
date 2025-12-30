@@ -51,7 +51,7 @@
 define('APP_COOKIE_DOMAIN', 'your-domain.com');
 
 
-
+?>
 
 ---
 
