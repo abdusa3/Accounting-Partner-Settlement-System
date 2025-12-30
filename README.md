@@ -122,4 +122,4 @@ define('APP_COOKIE_DOMAIN', 'your-domain.com');
 
 ---
 
-© Internal Accounting System
+© Accounting Partner Settlement System
