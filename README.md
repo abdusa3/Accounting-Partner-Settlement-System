@@ -1,4 +1,4 @@
-# Internal Accounting System
+# Accounting Partner Settlement System
 
 <p align="center">
   <a href="#-العربية">
@@ -17,7 +17,7 @@
 ## 🇸🇦 العربية
 
 ### 📌 الوصف
-نظام **Internal Accounting System** يوفّر:
+نظام **Accounting Partner Settlement System** يوفّر:
 - إدارة الإيرادات والمصروفات
 - حساب الأرباح والخسائر
 - تسويات دورية بين الشركاء
@@ -68,7 +68,7 @@ define('APP_COOKIE_DOMAIN', 'your-domain.com');
 ## 🇺🇸 English
 
 ### 📌 Description
-**Internal Accounting System** is a lightweight and advanced accounting system designed to manage:
+**Accounting Partner Settlement System** is a lightweight and advanced accounting system designed to manage:
 - Revenue and expense management
 - Profit and loss tracking
 - Periodic partner settlements
