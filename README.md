@@ -1,11 +1,23 @@
-# Accounting Partner Settlement System
+# Internal Accounting System
+
+<p align="center">
+  <a href="#-العربية">
+    <img src="https://img.shields.io/badge/العربية-RTL-blue?style=for-the-badge">
+  </a>
+  &nbsp;
+  <a href="#-english">
+    <img src="https://img.shields.io/badge/English-LTR-green?style=for-the-badge">
+  </a>
+</p>
 
 نظام محاسبة متقدم وخفيف لإدارة العمليات المالية والتسويات بين الشركاء، مناسب للاستخدام الداخلي أو كعرض تجريبي (Demo).
 
 ---
 
-## 📌 الوصف
-نظام **Accounting Partner Settlement System** يوفّر:
+## 🇸🇦 العربية
+
+### 📌 الوصف
+نظام **Internal Accounting System** يوفّر:
 - إدارة الإيرادات والمصروفات
 - حساب الأرباح والخسائر
 - تسويات دورية بين الشركاء
@@ -16,7 +28,7 @@
 
 ---
 
-## 📂 مكونات المشروع
+### 📂 مكونات المشروع
 - **dashboard.php**  
   لوحة تحكم متقدمة:
   - دعم كامل للغة العربية (RTL)
@@ -34,9 +46,9 @@
 
 ---
 
-## 👤 بيانات الدخول (Demo)
-| اسم المستخدم   | كلمة المرور | الاسم المعروض |
-|----------------|-------------|---------------|
+### 👤 بيانات الدخول (Demo)
+| اسم المستخدم | كلمة المرور | الاسم المعروض |
+|--------------|-------------|---------------|
 | demo_ali     | 1234        | علي |
 | demo_ahmad   | 1234        | أحمد |
 
@@ -44,29 +56,19 @@
 
 ---
 
-## ⚙️ ملاحظة مهمة
+### ⚙️ ملاحظة مهمة
 إذا كان الدومين مختلفًا عن الإعداد الافتراضي، يجب تعديل المتغير التالي داخل ملف `config.php`:
 
 ```php
 define('APP_COOKIE_DOMAIN', 'your-domain.com');
-
-
-?>
+```
 
 ---
 
-## 📄 README_EN.md (English Version)
+## 🇺🇸 English
 
-```md
-# Accounting Partner Settlement System
-
-A lightweight and advanced accounting system for managing financial operations and partner settlements.  
-Suitable for internal use or as a demo project.
-
----
-
-## 📌 Description
-**Accounting Partner Settlement System** provides:
+### 📌 Description
+**Internal Accounting System** is a lightweight and advanced accounting system designed to manage:
 - Revenue and expense management
 - Profit and loss tracking
 - Periodic partner settlements
@@ -77,7 +79,7 @@ The system is designed to be simple, clear, and scalable.
 
 ---
 
-## 📂 Project Structure
+### 📂 Project Structure
 - **dashboard.php**  
   Advanced dashboard interface:
   - Full RTL support for Arabic
@@ -95,18 +97,29 @@ The system is designed to be simple, clear, and scalable.
 
 ---
 
-## 👤 Demo Login Credentials
-| Username       | Password | Display Name |
-|----------------|----------|--------------|
-| demo_ali     | 1234     | Ali |
-| demo_ahmad   | 1234     | Ahmad |
+### 👤 Demo Login Credentials
+| Username    | Password | Display Name |
+|-------------|----------|--------------|
+| demo_ali    | 1234     | Ali |
+| demo_ahmad  | 1234     | Ahmad |
 
 > ⚠️ Change passwords before using the system in production.
 
 ---
 
-## ⚙️ Important Note
+### ⚙️ Important Note
 If your domain differs from the default configuration, update the following constant in `config.php`:
 
 ```php
 define('APP_COOKIE_DOMAIN', 'your-domain.com');
+```
+
+---
+
+## 📎 Notes
+- This project is intended for **internal, demo, and portfolio purposes**.
+- Additional security hardening is recommended before production use.
+
+---
+
+© Internal Accounting System
