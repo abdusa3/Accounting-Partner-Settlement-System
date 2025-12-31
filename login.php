@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <input name="password" type="password" autocomplete="current-password" placeholder="كلمة المرور">
       <button>دخول</button>
     </form>
-    <div class="muted" style="margin-top:10px">AirLinkUp Accounting</div>
+    <div class="muted" style="margin-top:10px">Accounting Partner Settlement System</div>
   </div>
 </body>
 </html>
