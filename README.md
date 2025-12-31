@@ -8,6 +8,14 @@
   <a href="#-english">
     <img src="https://img.shields.io/badge/English-LTR-green?style=for-the-badge">
   </a>
+
+  <p align="center">
+  <a href="https://demo.amrabah.me/accounting/" target="_blank">
+    <img src="https://img.shields.io/badge/🚀_Live_Demo-Accounting_System-2563eb?style=for-the-badge">
+  </a>
+</p>
+
+
 </p>
 
 نظام محاسبة متقدم وخفيف لإدارة العمليات المالية والتسويات بين الشركاء، مناسب للاستخدام الداخلي أو كعرض تجريبي (Demo).
