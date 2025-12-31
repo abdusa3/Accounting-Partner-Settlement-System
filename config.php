@@ -8,7 +8,7 @@ ini_set('display_errors', '0');
 define('APP_NAME', 'Accounting Partner Settlement System');
 define('DB_SQLITE_PATH', __DIR__ . '/data/accounting.sqlite');
 
-define('APP_COOKIE_DOMAIN', 'your_domain'); // عدّلها إذا اختلف الدومين
+define('APP_COOKIE_DOMAIN', 'demo.amrabah.me'); // عدّلها إذا اختلف الدومين
 define('APP_COOKIE_SECURE', true);
 define('APP_COOKIE_SAMESITE', 'Lax');
 define('APP_SESSION_LIFETIME', 0);
