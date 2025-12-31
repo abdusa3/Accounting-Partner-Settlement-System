@@ -5,7 +5,7 @@ date_default_timezone_set('Asia/Riyadh');
 error_reporting(E_ALL);
 ini_set('display_errors', '0');
 
-define('APP_NAME', 'AirLinkUp Accounting');
+define('APP_NAME', 'Accounting Partner Settlement System');
 define('DB_SQLITE_PATH', __DIR__ . '/data/accounting.sqlite');
 
 define('APP_COOKIE_DOMAIN', 'your_domain'); // عدّلها إذا اختلف الدومين
