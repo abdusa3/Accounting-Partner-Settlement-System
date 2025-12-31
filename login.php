@@ -40,18 +40,29 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   button{width:100%;padding:12px;border:0;border-radius:12px;background:#2563eb;color:#fff;font-weight:900;cursor:pointer}
   .err{background:#fef2f2;color:#991b1b;border:1px solid rgba(220,38,38,.30);padding:10px;border-radius:12px;margin-bottom:10px}
   .muted{color:#6b7280;font-size:12px}
+  .note{background:#ecfeff;color:#155e75;border:1px solid #67e8f9;padding:12px;border-radius:12px;margin-bottom:14px;font-size:13px}
   .num{direction:ltr;unicode-bidi:plaintext;text-align:left}
 </style>
 </head>
 <body>
   <div class="card">
+
+    <!-- ملاحظة الديمو -->
+    <div class="note num">
+      username: demo_ali &nbsp; password: 1234<br>
+      username: demo_ahmad &nbsp; password: 1234
+    </div>
+
     <h2 class="h">تسجيل الدخول</h2>
+
     <?php if($error): ?><div class="err"><?= e($error) ?></div><?php endif; ?>
+
     <form method="post" autocomplete="on">
       <input name="username" autocomplete="username" placeholder="اسم المستخدم" value="<?= e($_POST['username'] ?? '') ?>">
       <input name="password" type="password" autocomplete="current-password" placeholder="كلمة المرور">
       <button>دخول</button>
     </form>
+
     <div class="muted" style="margin-top:10px">Accounting Partner Settlement System</div>
   </div>
 </body>
